@@ -1,4 +1,4 @@
-package mysql;
+package com.sk8ingduck.ctf.mysql;
 
 import com.sk8ingduck.ctf.connection.Connection;
 import com.sk8ingduck.ctf.connection.ConnectionPool;
