@@ -6,3 +6,6 @@ description: capture the flag
 main: com.sk8ingduck.ctf.CTF
 
 commands:
+  region:
+    description: Set regions
+    usage: /<command>
