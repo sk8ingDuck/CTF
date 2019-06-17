@@ -1,0 +1,8 @@
+name: CTF
+author: sk8ingDuck
+version: 1.0
+description: capture the flag
+
+main: com.sk8ingduck.ctf.CTF
+
+commands:
