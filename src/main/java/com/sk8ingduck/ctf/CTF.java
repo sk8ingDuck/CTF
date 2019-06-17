@@ -11,8 +11,10 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import javax.sql.DataSource;
 import java.io.File;
 import java.io.IOException;
+import java.sql.Connection;
 import java.util.HashMap;
 
 public class CTF extends JavaPlugin {
@@ -30,6 +32,8 @@ public class CTF extends JavaPlugin {
     public void onEnable() {
         instance = this;
         game = new GameSession();
+
+
 
         PluginManager pluginManager = Bukkit.getPluginManager();
         try {

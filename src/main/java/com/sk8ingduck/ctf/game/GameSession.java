@@ -1,7 +1,9 @@
 package com.sk8ingduck.ctf.game;
 
 import com.sk8ingduck.ctf.event.GameStateChangeEvent;
+import com.sk8ingduck.ctf.scheduler.Countdown;
 import lombok.Getter;
+import lombok.Setter;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
@@ -9,6 +11,10 @@ public class GameSession {
 
     @Getter
     private GameState currentGameState;
+
+    @Getter
+    @Setter
+    private Countdown currentCountdown;
 
 
     public void sendTeamMessage(Team team, String message) {

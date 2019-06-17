@@ -8,6 +8,5 @@ public class GameStateChangeListener implements Listener {
 
     @EventHandler
     public void onGameStateChange(GameStateChangeEvent event) {
-
     }
 }
